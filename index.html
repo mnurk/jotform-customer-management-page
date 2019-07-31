@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <script src='http://js.jotform.com/JotForm.js'></script>
+    <script src='http://js.jotform.com/FormPicker.js'></script>
+</head>
+
+<body>
+    <form id="forms" action="main.php" method="POST" name="forms">
+        <input type="hidden" name="apiKey" id="apiKey">
+        <input type="hidden" name="idArray" id="idArray">
+        <input type="hidden" name="formTitle" id="formTitle">
+        <input type="submit" name="formsubmit" id="formsubmit" value="FORM" style="display: none;">
+    </form>
+
+</body>
+
+
+
+<script>
+    var formTitle = [];
+    var idArray = [];
+    var apiKey;
+
+    JF.FormPicker({
+        title: 'Select Forms to Compare',
+        showPreviewLink: true,
+        offset: 0,
+        limit: 100,
+        filter: false,
+        sort: 'created_at',
+        sortType: 'DESC',
+        multiSelect: true,
+        infinite_scroll: true,
+        search: true,
+        onSelect: function(selectedForms) {
+            console.log(selectedForms);
+            for(var i = 0; i < selectedForms.length; i++){
+                idArray[i] = selectedForms[i].id;
+                formTitle[i] = selectedForms[i].title;
+                
+            }
+            document.getElementById('formTitle').value = formTitle;
+            document.getElementById('idArray').value = idArray;
+            document.getElementById('formsubmit').click();
+            console.log(idArray);
+        },
+        onReady: function() {},
+        onClose: function() {
+            
+        },
+        onLoad: function() {
+            apiKey = JF.getAPIKey();
+            console.log(apiKey);    
+            document.getElementById('apiKey').value = apiKey;  
+        }
+    });
+    
+
+
+</script>
+
+</html>

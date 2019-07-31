@@ -1,0 +1,487 @@
+Array
+(
+    [0] => stdClass Object
+        (
+            [responseCode] => 200
+            [message] => success
+            [content] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => 4390957968502432507
+                            [form_id] => 91964081349970
+                            [ip] => 178.251.40.58
+                            [created_at] => 2019-07-16 10:17:22
+                            [status] => ACTIVE
+                            [new] => 1
+                            [flag] => 0
+                            [notes] => 
+                            [updated_at] => 
+                            [answers] => stdClass Object
+                                (
+                                    [1] => stdClass Object
+                                        (
+                                            [name] => heading
+                                            [order] => 1
+                                            [text] => Form 2
+                                            [type] => control_head
+                                        )
+
+                                    [2] => stdClass Object
+                                        (
+                                            [name] => submit2
+                                            [order] => 4
+                                            [text] => Submit
+                                            [type] => control_button
+                                        )
+
+                                    [3] => stdClass Object
+                                        (
+                                            [name] => email
+                                            [order] => 2
+                                            [text] => Email
+                                            [type] => control_email
+                                            [answer] => asli@hotmail.com
+                                        )
+
+                                    [4] => stdClass Object
+                                        (
+                                            [name] => myProducts
+                                            [order] => 3
+                                            [paymentType] => product
+                                            [text] => My Products
+                                            [type] => control_paypal
+                                            [products] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [customPrice] => 
+                                                            [customPriceSource] => 0
+                                                            [hasExpandedOption] => 
+                                                            [hasQuantity] => 
+                                                            [hasSpecialPricing] => 
+                                                            [icon] => 
+                                                            [name] => Pijamas
+                                                            [options] => []
+                                                            [period] => Monthly
+                                                            [pid] => 1000
+                                                            [price] => 35
+                                                            [recurringtimes] => No Limit
+                                                            [required] => 
+                                                            [selected] => 
+                                                            [setupfee] => 
+                                                            [showSubtotal] => 0
+                                                            [trial] => 
+                                                        )
+
+                                                    [1] => stdClass Object
+                                                        (
+                                                            [customPrice] => 
+                                                            [customPriceSource] => 0
+                                                            [hasExpandedOption] => 
+                                                            [hasQuantity] => 
+                                                            [hasSpecialPricing] => 
+                                                            [icon] => 
+                                                            [name] => Slippers
+                                                            [options] => []
+                                                            [period] => Monthly
+                                                            [pid] => 1001
+                                                            [price] => 5
+                                                            [recurringtimes] => No Limit
+                                                            [required] => 
+                                                            [selected] => 
+                                                            [setupfee] => 
+                                                            [showSubtotal] => 0
+                                                            [trial] => 
+                                                        )
+
+                                                )
+
+                                            [answer] => stdClass Object
+                                                (
+                                                    [0] => {"id":"1001"}
+                                                    [1] => {"customPrice":"","customPriceSource":"0","hasExpandedOption":"","hasSpecialPricing":"","name":"Slippers","options":[],"period":"Monthly","pid":"1001","price":5,"recurringtimes":"No Limit","required":"","selected":"","setupfee":"","showSubtotal":"0","trial":"","currency":"USD","gateway":"paypal","paymentType":"product"}
+                                                    [paymentArray] => {"product":["Slippers (Amount: 5.00 USD)"],"currency":"USD","total":"5.00"}
+                                                )
+
+                                            [prettyFormat] => 
+
+    Slippers (Amount: 5.00 USD) 
+
+Total: $5.00
+
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [id] => 4390957378508327014
+                            [form_id] => 91964081349970
+                            [ip] => 178.251.40.58
+                            [created_at] => 2019-07-16 10:16:05
+                            [status] => ACTIVE
+                            [new] => 1
+                            [flag] => 0
+                            [notes] => 
+                            [updated_at] => 
+                            [answers] => stdClass Object
+                                (
+                                    [1] => stdClass Object
+                                        (
+                                            [name] => heading
+                                            [order] => 1
+                                            [text] => Form 2
+                                            [type] => control_head
+                                        )
+
+                                    [2] => stdClass Object
+                                        (
+                                            [name] => submit2
+                                            [order] => 4
+                                            [text] => Submit
+                                            [type] => control_button
+                                        )
+
+                                    [3] => stdClass Object
+                                        (
+                                            [name] => email
+                                            [order] => 2
+                                            [text] => Email
+                                            [type] => control_email
+                                            [answer] => john@example.com
+                                        )
+
+                                    [4] => stdClass Object
+                                        (
+                                            [name] => myProducts
+                                            [order] => 3
+                                            [paymentType] => product
+                                            [text] => My Products
+                                            [type] => control_paypal
+                                            [products] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [customPrice] => 
+                                                            [customPriceSource] => 0
+                                                            [hasExpandedOption] => 
+                                                            [hasQuantity] => 
+                                                            [hasSpecialPricing] => 
+                                                            [icon] => 
+                                                            [name] => Pijamas
+                                                            [options] => []
+                                                            [period] => Monthly
+                                                            [pid] => 1000
+                                                            [price] => 35
+                                                            [recurringtimes] => No Limit
+                                                            [required] => 
+                                                            [selected] => 
+                                                            [setupfee] => 
+                                                            [showSubtotal] => 0
+                                                            [trial] => 
+                                                        )
+
+                                                    [1] => stdClass Object
+                                                        (
+                                                            [customPrice] => 
+                                                            [customPriceSource] => 0
+                                                            [hasExpandedOption] => 
+                                                            [hasQuantity] => 
+                                                            [hasSpecialPricing] => 
+                                                            [icon] => 
+                                                            [name] => Slippers
+                                                            [options] => []
+                                                            [period] => Monthly
+                                                            [pid] => 1001
+                                                            [price] => 5
+                                                            [recurringtimes] => No Limit
+                                                            [required] => 
+                                                            [selected] => 
+                                                            [setupfee] => 
+                                                            [showSubtotal] => 0
+                                                            [trial] => 
+                                                        )
+
+                                                )
+
+                                            [answer] => stdClass Object
+                                                (
+                                                    [0] => {"id":"1000"}
+                                                    [1] => {"id":"1001"}
+                                                    [2] => {"customPrice":"","customPriceSource":"0","hasExpandedOption":"","hasSpecialPricing":"","name":"Pijamas","options":[],"period":"Monthly","pid":"1000","price":35,"recurringtimes":"No Limit","required":"","selected":"","setupfee":"","showSubtotal":"0","trial":"","currency":"USD","gateway":"paypal","paymentType":"product"}
+                                                    [3] => {"customPrice":"","customPriceSource":"0","hasExpandedOption":"","hasSpecialPricing":"","name":"Slippers","options":[],"period":"Monthly","pid":"1001","price":5,"recurringtimes":"No Limit","required":"","selected":"","setupfee":"","showSubtotal":"0","trial":"","currency":"USD","gateway":"paypal","paymentType":"product"}
+                                                    [paymentArray] => {"product":["Pijamas (Amount: 35.00 USD)","Slippers (Amount: 5.00 USD)"],"currency":"USD","total":"40.00"}
+                                                )
+
+                                            [prettyFormat] => 
+
+    Pijamas (Amount: 35.00 USD)
+    Slippers (Amount: 5.00 USD) 
+
+Total: $40.00
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [duration] => 26ms
+            [resultSet] => stdClass Object
+                (
+                    [offset] => 0
+                    [limit] => 20
+                    [count] => 2
+                )
+
+            [limit-left] => 99834
+        )
+
+    [1] => stdClass Object
+        (
+            [responseCode] => 200
+            [message] => success
+            [content] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => 4390955988509778386
+                            [form_id] => 91964062062961
+                            [ip] => 178.251.40.58
+                            [created_at] => 2019-07-16 10:13:57
+                            [status] => ACTIVE
+                            [new] => 1
+                            [flag] => 0
+                            [notes] => 
+                            [updated_at] => 
+                            [answers] => stdClass Object
+                                (
+                                    [1] => stdClass Object
+                                        (
+                                            [name] => heading
+                                            [order] => 1
+                                            [text] => Form 1
+                                            [type] => control_head
+                                        )
+
+                                    [2] => stdClass Object
+                                        (
+                                            [name] => submit2
+                                            [order] => 4
+                                            [text] => Submit
+                                            [type] => control_button
+                                        )
+
+                                    [4] => stdClass Object
+                                        (
+                                            [name] => myProducts
+                                            [order] => 3
+                                            [paymentType] => product
+                                            [text] => My Products
+                                            [type] => control_paypal
+                                            [products] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [customPrice] => 
+                                                            [customPriceSource] => 0
+                                                            [hasExpandedOption] => 
+                                                            [hasQuantity] => 
+                                                            [hasSpecialPricing] => 
+                                                            [icon] => 
+                                                            [name] => T-Shirt
+                                                            [options] => []
+                                                            [period] => Monthly
+                                                            [pid] => 1000
+                                                            [price] => 10
+                                                            [recurringtimes] => No Limit
+                                                            [required] => 
+                                                            [selected] => 
+                                                            [setupfee] => 
+                                                            [showSubtotal] => 0
+                                                            [trial] => 
+                                                        )
+
+                                                    [1] => stdClass Object
+                                                        (
+                                                            [customPrice] => 
+                                                            [customPriceSource] => 0
+                                                            [hasExpandedOption] => 
+                                                            [hasQuantity] => 
+                                                            [hasSpecialPricing] => 
+                                                            [icon] => 
+                                                            [name] => Pants
+                                                            [options] => []
+                                                            [period] => Monthly
+                                                            [pid] => 1001
+                                                            [price] => 20
+                                                            [recurringtimes] => No Limit
+                                                            [required] => 
+                                                            [selected] => 
+                                                            [setupfee] => 
+                                                            [showSubtotal] => 0
+                                                            [trial] => 
+                                                        )
+
+                                                )
+
+                                            [answer] => stdClass Object
+                                                (
+                                                    [0] => {"id":"1000"}
+                                                    [1] => {"customPrice":"","customPriceSource":"0","hasExpandedOption":"","hasSpecialPricing":"","name":"T-Shirt","options":[],"period":"Monthly","pid":"1000","price":10,"recurringtimes":"No Limit","required":"","selected":"","setupfee":"","showSubtotal":"0","trial":"","currency":"USD","gateway":"paypal","paymentType":"product"}
+                                                    [paymentArray] => {"product":["T-Shirt (Amount: 10.00 USD)"],"currency":"USD","total":"10.00"}
+                                                )
+
+                                            [prettyFormat] => 
+
+    T-Shirt (Amount: 10.00 USD) 
+
+Total: $10.00
+
+                                        )
+
+                                    [5] => stdClass Object
+                                        (
+                                            [name] => email
+                                            [order] => 2
+                                            [text] => Email
+                                            [type] => control_email
+                                            [answer] => asli@hotmail.com
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [id] => 4390954898502869031
+                            [form_id] => 91964062062961
+                            [ip] => 178.251.40.58
+                            [created_at] => 2019-07-16 10:12:23
+                            [status] => ACTIVE
+                            [new] => 1
+                            [flag] => 0
+                            [notes] => 
+                            [updated_at] => 
+                            [answers] => stdClass Object
+                                (
+                                    [1] => stdClass Object
+                                        (
+                                            [name] => heading
+                                            [order] => 1
+                                            [text] => Form 1
+                                            [type] => control_head
+                                        )
+
+                                    [2] => stdClass Object
+                                        (
+                                            [name] => submit2
+                                            [order] => 4
+                                            [text] => Submit
+                                            [type] => control_button
+                                        )
+
+                                    [4] => stdClass Object
+                                        (
+                                            [name] => myProducts
+                                            [order] => 3
+                                            [paymentType] => product
+                                            [text] => My Products
+                                            [type] => control_paypal
+                                            [products] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [customPrice] => 
+                                                            [customPriceSource] => 0
+                                                            [hasExpandedOption] => 
+                                                            [hasQuantity] => 
+                                                            [hasSpecialPricing] => 
+                                                            [icon] => 
+                                                            [name] => T-Shirt
+                                                            [options] => []
+                                                            [period] => Monthly
+                                                            [pid] => 1000
+                                                            [price] => 10
+                                                            [recurringtimes] => No Limit
+                                                            [required] => 
+                                                            [selected] => 
+                                                            [setupfee] => 
+                                                            [showSubtotal] => 0
+                                                            [trial] => 
+                                                        )
+
+                                                    [1] => stdClass Object
+                                                        (
+                                                            [customPrice] => 
+                                                            [customPriceSource] => 0
+                                                            [hasExpandedOption] => 
+                                                            [hasQuantity] => 
+                                                            [hasSpecialPricing] => 
+                                                            [icon] => 
+                                                            [name] => Pants
+                                                            [options] => []
+                                                            [period] => Monthly
+                                                            [pid] => 1001
+                                                            [price] => 20
+                                                            [recurringtimes] => No Limit
+                                                            [required] => 
+                                                            [selected] => 
+                                                            [setupfee] => 
+                                                            [showSubtotal] => 0
+                                                            [trial] => 
+                                                        )
+
+                                                )
+
+                                            [answer] => stdClass Object
+                                                (
+                                                    [0] => {"id":"1000"}
+                                                    [1] => {"id":"1001"}
+                                                    [2] => {"customPrice":"","customPriceSource":"0","hasExpandedOption":"","hasSpecialPricing":"","name":"T-Shirt","options":[],"period":"Monthly","pid":"1000","price":10,"recurringtimes":"No Limit","required":"","selected":"","setupfee":"","showSubtotal":"0","trial":"","currency":"USD","gateway":"paypal","paymentType":"product"}
+                                                    [3] => {"customPrice":"","customPriceSource":"0","hasExpandedOption":"","hasSpecialPricing":"","name":"Pants","options":[],"period":"Monthly","pid":"1001","price":20,"recurringtimes":"No Limit","required":"","selected":"","setupfee":"","showSubtotal":"0","trial":"","currency":"USD","gateway":"paypal","paymentType":"product"}
+                                                    [paymentArray] => {"product":["T-Shirt (Amount: 10.00 USD)","Pants (Amount: 20.00 USD)"],"currency":"USD","total":"30.00"}
+                                                )
+
+                                            [prettyFormat] => 
+
+    T-Shirt (Amount: 10.00 USD)
+    Pants (Amount: 20.00 USD) 
+
+Total: $30.00
+
+                                        )
+
+                                    [5] => stdClass Object
+                                        (
+                                            [name] => email
+                                            [order] => 2
+                                            [text] => Email
+                                            [type] => control_email
+                                            [answer] => john@example.com
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [duration] => 25ms
+            [resultSet] => stdClass Object
+                (
+                    [offset] => 0
+                    [limit] => 20
+                    [count] => 2
+                )
+
+            [limit-left] => 99833
+        )
+
+)

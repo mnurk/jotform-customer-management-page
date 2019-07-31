@@ -1,0 +1,190 @@
+
+body {
+	background-image: url("/test/customer-management/img/tile-black.jpg");
+	background-color: #cccccc;
+	font-family: sans-serif;
+	font-size: 12px;
+}	
+
+
+.header-text {
+	color: #FF8D2E;
+	font-size: 25px;
+	float: left;
+	padding-top: 25px;
+}
+
+.header-logo {
+	float: left;
+}
+div.jotform-logo-header {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	clear: both;
+}
+.jotform-logo-link img {
+	max-width: 100%;
+	max-height: 100%;
+	height: auto !important;
+	table-layout: auto;
+}
+
+#customerTable { 
+	width: 97%; 
+	background: #eae0d7;
+	color: #000;
+	border-collapse: separate;
+	border-spacing: 3px;
+}
+
+#customerTable th { 
+  	background: orange; 
+ 	color: white; 
+  	padding: 6px; 
+ 	text-align: left;
+ 	font-size: 14px; 
+}
+
+#customerTable td { 
+	padding: 6px; 
+	text-align: left; 
+}
+
+#customerTable tbody tr:hover {
+	background: #E5D7C7;
+}
+
+.email {
+	width: 150px;
+}
+#customerTable td .saledProducts {
+	text-align: center
+}
+
+div.search {
+	padding: 10px 2.5%;
+	text-align: right;
+	clear: both;
+}
+
+#customerTable tr th {
+	position: relative;
+}
+
+#customerTable th .badge {
+	background-color: #b95203;
+	border-radius: 4px;
+	font-size: 10px;
+	padding: 4px 8px;
+	text-align: right;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+.show {
+	background: #eee;
+}
+
+#searchInput {
+	background-image: url('/test/customer-management/img/search-icon.png');
+	background-position: right center;
+	background-size: 15px 15px;
+	background-repeat: no-repeat;
+	width: 35%;
+	font-size: 17px;
+	margin-bottom: 12px;
+	border-radius: 5px;
+}
+
+.label tr td label {
+	display: block;
+}
+
+.hide {
+	background-color: #eae0d7;
+}
+
+.collapsible {
+	background-color: #eee;
+	color: #000;
+	cursor: pointer;
+	padding: 8px;
+	width: 100%;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-size: 12px;
+}
+
+#popoverData {
+	margin-top: -50px;
+}
+
+.popover {
+    max-width: 75px ! important;
+    max-height: 75px ! important;
+    text-align: center;
+}
+
+.hovertext {
+	display: none;
+	position: absolute;
+	opacity: 0;
+	font-size: 11px;
+	padding: 4px 12px;
+	right: 112px;
+	top: -10px;
+	width: 120px;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.19);
+	-moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.19);
+	box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.19);
+	color: #666;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.popover:hover + .hovertext {
+	opacity: 1;
+	right: 28px;
+	display: block;
+}
+
+
+
+#customerTable tfoot td {
+	background-color: #eae0d7;
+	font-size: xx-small;
+}
+
+
+
+.paymentMethodLogo {
+	max-width: 21px;
+	position: absolute;
+	right: 32px;
+	top: 5px;
+	border-radius: 4px;
+}
+
+#productNumber {
+	width: 120px;
+}
+#totalAmount {
+	width: 130px;
+}
+
+ul {
+	list-style-type: disclosure-closed;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

@@ -1,0 +1,77 @@
+Array
+(
+    [asli@hotmail.com] => Array
+        (
+            [0] => Array
+                (
+                    [ip] => 178.251.40.58
+                    [formId] => 91964081349970
+                    [formTitle] => Form 2
+                    [createdAt] => 2019-07-16 10:17:22
+                    [updatedAt] => 2019-07-18 05:08:27
+                    [paymentMethod] => paypal
+                    [products] => Array
+                        (
+                            [0] => Slippers (Amount: 5.00 USD)
+                        )
+
+                    [total] => 5.00
+                )
+
+            [1] => Array
+                (
+                    [ip] => 178.251.40.58
+                    [formId] => 91964062062961
+                    [formTitle] => Form 1
+                    [createdAt] => 2019-07-16 10:13:57
+                    [updatedAt] => 
+                    [paymentMethod] => paypal
+                    [products] => Array
+                        (
+                            [0] => T-Shirt (Amount: 10.00 USD)
+                        )
+
+                    [total] => 10.00
+                )
+
+        )
+
+    [john@example.com] => Array
+        (
+            [0] => Array
+                (
+                    [ip] => 178.251.40.58
+                    [formId] => 91964081349970
+                    [formTitle] => Form 2
+                    [createdAt] => 2019-07-16 10:16:05
+                    [updatedAt] => 2019-07-18 09:18:53
+                    [paymentMethod] => paypal
+                    [products] => Array
+                        (
+                            [0] => Pijamas (Amount: 35.00 USD)
+                            [1] => Slippers (Amount: 5.00 USD)
+                        )
+
+                    [total] => 40.00
+                )
+
+            [1] => Array
+                (
+                    [ip] => 178.251.40.58
+                    [formId] => 91964062062961
+                    [formTitle] => Form 1
+                    [createdAt] => 2019-07-16 10:12:23
+                    [updatedAt] => 
+                    [paymentMethod] => paypal
+                    [products] => Array
+                        (
+                            [0] => T-Shirt (Amount: 10.00 USD)
+                            [1] => Pants (Amount: 20.00 USD)
+                        )
+
+                    [total] => 30.00
+                )
+
+        )
+
+)
